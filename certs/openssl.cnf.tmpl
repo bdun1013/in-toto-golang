@@ -17,7 +17,7 @@ basicConstraints=critical,CA:TRUE
 keyUsage=critical,keyCertSign,cRLSign
 subjectAltName=URI:spiffe://root
 
-[ v3-intermediate ]
+[v3-intermediate]
 subjectKeyIdentifier=hash
 authorityKeyIdentifier=keyid:always,issuer:always
 basicConstraints=critical,CA:TRUE
@@ -25,7 +25,7 @@ keyUsage=critical,keyCertSign,cRLSign
 subjectAltName=URI:spiffe://{{TRUST_DOMAIN_FQDN}}
 
 
-[ v3-leaf ]
+[v3-leaf]
 subjectAltName=critical,URI:spiffe://{{TRUST_DOMAIN_FQDN}}/{{SPIFFE_PATH}}
 keyUsage = critical,digitalSignature,keyEncipherment,nonRepudiation
 basicConstraints = CA:false

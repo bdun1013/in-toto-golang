@@ -824,7 +824,6 @@ func TestInTotoVerifyWithDirectory(t *testing.T) {
 	}
 
 	// No error should occur
-	// TODO Brian fix this
 	if _, err := InTotoVerifyWithDirectory(layoutMb, layouKeys, linkDir, ".", "",
 		make(map[string]string), [][]byte{}); err != nil {
 		t.Error(err)

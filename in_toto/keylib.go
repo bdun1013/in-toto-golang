@@ -655,21 +655,14 @@ func VerifySignature(key Key, sig Signature, unverified []byte) error {
 VerifyCertificateTrust verifies that the certificate has a chain of trust
 to a root in rootCertPool, possibly using any intermediates in
 intermediateCertPool */
-func VerifyCertificateTrust(key Key, rootCertPool, intermediateCertPool *x509.CertPool) error {
-	_, possibleCert, err := decodeAndParse([]byte(key.KeyVal.Certificate))
-	if err != nil {
-		return err
+func VerifyCertificateTrust(cert *x509.Certificate, rootCertPool, intermediateCertPool *x509.CertPool) ([][]*x509.Certificate, error) {
+	verifyOptions := x509.VerifyOptions{
+		Roots:         rootCertPool,
+		Intermediates: intermediateCertPool,
 	}
-
-	cert, ok := possibleCert.(*x509.Certificate)
-	if !ok {
-		return ErrInvalidKey
-	}
-
-	chains, err := cert.Verify(x509.VerifyOptions{Roots: rootCertPool, Intermediates: intermediateCertPool})
+	chains, err := cert.Verify(verifyOptions)
 	if len(chains) == 0 || err != nil {
-		return errors.New("could not verify cert for key")
+		return nil, fmt.Errorf("cert cannot be verified by provided roots and intermediates")
 	}
-
-	return nil
+	return chains, nil
 }

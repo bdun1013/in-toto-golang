@@ -298,11 +298,6 @@ func validatePublicKey(key Key) error {
 	return nil
 }
 
-// TODO: implement this
-func validateCertificates(cert []string) error {
-	return nil
-}
-
 /*
 Signature represents a generic in-toto signature that contains the identifier
 of the Key, which was used to create the signature and the signature data.  The
@@ -534,7 +529,7 @@ type Step struct {
 
 // CheckCertConstraints returns true if the provided certificate matches at least one
 // of the constraints for this step.
-func (s Step) CheckCertConstraints(key Key) bool {
+func (s Step) CheckCertConstraints(key Key, rootCAIDs []string, rootCertPool, intermediateCertPool *x509.CertPool) bool {
 	_, possibleCert, err := decodeAndParse([]byte(key.KeyVal.Certificate))
 	if err != nil {
 		return false
@@ -546,7 +541,8 @@ func (s Step) CheckCertConstraints(key Key) bool {
 	}
 
 	for _, constraint := range s.CertificateConstraints {
-		if constraint.Check(cert) {
+		err := constraint.Check(cert, rootCAIDs, rootCertPool, intermediateCertPool)
+		if err == nil {
 			return true
 		}
 	}
@@ -618,6 +614,15 @@ func (l *Layout) inspectAsInterfaceSlice() []interface{} {
 		inspectionsI[i] = v
 	}
 	return inspectionsI
+}
+
+// RootCAIDs returns a slice of all of the Root CA IDs
+func (l *Layout) RootCAIDs() []string {
+	rootCAIDs := make([]string, 0, len(l.RootCas))
+	for rootCAID := range l.RootCas {
+		rootCAIDs = append(rootCAIDs, rootCAID)
+	}
+	return rootCAIDs
 }
 
 func validateLayoutKeys(keys map[string]Key) error {

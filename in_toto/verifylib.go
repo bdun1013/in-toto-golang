@@ -528,12 +528,7 @@ func VerifyLinkSignatureThesholds(layout Layout,
 				}
 
 				// test certificate against the step's constraints to make sure it's a valid functionary
-				if !step.CheckCertConstraints(cert) {
-					continue
-				}
-
-				// test against the root pool with the key's certificate if it has any
-				if err := VerifyCertificateTrust(cert, rootCertPool, intermediateCertPool); err != nil {
+				if !step.CheckCertConstraints(cert, layout.RootCAIDs(), rootCertPool, intermediateCertPool) {
 					continue
 				}
 

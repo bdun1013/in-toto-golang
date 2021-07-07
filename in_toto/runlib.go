@@ -287,19 +287,16 @@ func InTotoRun(name string, runDir string, materialPaths []string, productPaths 
 
 	materials, err := RecordArtifacts(materialPaths, hashAlgorithms, gitignorePatterns, lStripPaths)
 	if err != nil {
-		fmt.Println(err)
 		return linkMb, err
 	}
 
 	byProducts, err := RunCommand(cmdArgs, runDir)
 	if err != nil {
-		fmt.Println(err)
 		return linkMb, err
 	}
 
 	products, err := RecordArtifacts(productPaths, hashAlgorithms, gitignorePatterns, lStripPaths)
 	if err != nil {
-		fmt.Println(err)
 		return linkMb, err
 	}
 
@@ -320,7 +317,6 @@ func InTotoRun(name string, runDir string, materialPaths []string, productPaths 
 	// with other values than the default ones.
 	if !reflect.ValueOf(key).IsZero() {
 		if err := linkMb.Sign(key); err != nil {
-			fmt.Println(err)
 			return linkMb, err
 		}
 	}
