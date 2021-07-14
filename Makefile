@@ -158,6 +158,16 @@ define generate_openssl_conf
 	sed -e 's/{{SPIFFE_PATH}}/$(1)/' > certs/$(TRUST_DOMAIN_FQDN).$(1).openssl.cnf
 endef
 
+sbom: install-bom
+	@bom generate -n http://github.com/in-toto/in-toto-golang -o in-toto-golang.spdx .
+
+.ONESHELL:
+install-bom:
+	@git clone git@github.com:kubernetes/release.git
+	@cd release
+	@./compile-release-tools bom
+	@cd ../
+	@rm -rf release
 
 .PHONY: help
 all: help

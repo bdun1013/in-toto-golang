@@ -1,0 +1,2446 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-43fe327a-092b-4acc-a0a0-1fc65a91bfe9
+DocumentNamespace: http://github.com/in-toto/in-toto-golang
+Creator: Tool: k8s.io/release/pkg/spdx
+Created: 2021-07-14T16:14:07Z
+
+
+##### Package: in-toto-golang
+
+PackageName: in-toto-golang
+SPDXID: SPDXRef-Package-in-toto-golang
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+PackageVerificationCode: 73e17b23d0943924a4303bb678a3b08f9bf9cef3
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: .gitignore
+SPDXID: SPDXRef-File-46aebbd8f48b00b055722442b94db341cd29f518
+FileChecksum: SHA1: c093f386d4556ff63d67492b0a25790e5e7cc465
+FileChecksum: SHA256: 72652e2ba86d46cdc7d641249f60fedd104ed5fc62a18788a32405b1b0ad44fc
+FileChecksum: SHA512: 203938ce12966cd9fbe1479f66e7d8e343e73e8ec85ec655ff0633e926e8a71b14e5ed34baaa77298eb6927d0bb6a10380dc2d741ac9f72cab61fef7c647eb48
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-46aebbd8f48b00b055722442b94db341cd29f518
+FileName: .github/ISSUE_TEMPLATE.md
+SPDXID: SPDXRef-File-3076e021f15e311ade12cd63cb8ae7464c5f2fe4
+FileChecksum: SHA1: ccd07fec4e2c2542f4cbe7a271b2adf2c546f8e1
+FileChecksum: SHA256: 238f336bd9ef15757e40d372c7ddb96e2739c8214f748d8df8123aa7a978ac96
+FileChecksum: SHA512: d7219d70568c11a1d1d76b032d97c5d1ef70e23abafed9217d78d5091a5b4c428d19312a5860aa0d578f4f5e0ee7f9841ad44eee2d8807894286728e349e9265
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-3076e021f15e311ade12cd63cb8ae7464c5f2fe4
+FileName: .github/workflows/release.yml
+SPDXID: SPDXRef-File-dbbe692ea0f98ddaa201c6f103644770f9f944d1
+FileChecksum: SHA1: b1ab66a2a821d8c137fc25d9a7b96a8414ceed0d
+FileChecksum: SHA256: 437f968029b818ddf4effe3a6ecb113785622a95366adcd9ec9d48a046e9d313
+FileChecksum: SHA512: ddf2d4b678fe251ed280891063269b748cd1a47e25fe4e704b4f7abff7934a840bd14c820e9da1878c7613e38c31a52199382ed07c9d104db9e4b4f692b37aad
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-dbbe692ea0f98ddaa201c6f103644770f9f944d1
+FileName: .github/PULL_REQUEST_TEMPLATE.md
+SPDXID: SPDXRef-File-071f7cce23125d7bd8adc37c521237ace1ad05c2
+FileChecksum: SHA1: 6569336f9834d224caa16991055b5a90cbc1b78e
+FileChecksum: SHA256: 817cc8c4a700cfb2bcb7573f66783fc494bf7b398fde9f841145aa731d30892d
+FileChecksum: SHA512: bb9611f8cba6121ffb05eb39f84066cdee86cda61c1b80c97e6f2cd6da6fae5d3be6c8f3993a23386fabee428ad889d26f89ad6686f8b49a65c82151ef761527
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-071f7cce23125d7bd8adc37c521237ace1ad05c2
+FileName: .github/workflows/build.yml
+SPDXID: SPDXRef-File-2f51c72be6987be815927df05c747f69bc33f071
+FileChecksum: SHA1: eab786ff8fd630a20518b2acd90ce8a018f6653e
+FileChecksum: SHA256: 293a7c9c7d8a2d202b54d6e8880e9984c7d9e3c84e65837f4a79217c0055ab51
+FileChecksum: SHA512: 940379556f7f96a682d6f25fb4190577723976caf5905435befd0fe0494bac4a73e4732ef32b82c1687a09d9a39d058086789852429fab5518aa530bf0893914
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-2f51c72be6987be815927df05c747f69bc33f071
+FileName: CHANGELOG.md
+SPDXID: SPDXRef-File-c8acb4834e9b5ff358e08d1c6e7ba503937bc1bd
+FileChecksum: SHA1: 3f0150b1c94ee8ee64976957b92e10dad3efe805
+FileChecksum: SHA256: 63382575cfa45de0f74bb8162939d9628471129ed6b9cbffce6fdecda88ef3b9
+FileChecksum: SHA512: 76b33a7175185575314dfe29caab41df8626ad0a7a99fff3649c7bdc01193197f350a939918038ed2b1f63b2ea2c163905ca1971eff05bc9b098a6808f6af09b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-c8acb4834e9b5ff358e08d1c6e7ba503937bc1bd
+FileName: MAINTAINERS.md
+SPDXID: SPDXRef-File-4d687571239c447520d4900318a1dec18189a5e8
+FileChecksum: SHA1: d0f1d8458c794b5554871b919b5b09a8d7a5b2a3
+FileChecksum: SHA256: 89ccfb75b1d7021bb708f4335514913e1be39a5c41fe3dd0c32c37f9aa4fd162
+FileChecksum: SHA512: 1a112c8d30ca3d606b18a89718aca15f364222c6f68225712801e36a159ea233bed4fded9ea2c0565238ef8da2280de53f228abd84317a8b948cf99089c775ad
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-4d687571239c447520d4900318a1dec18189a5e8
+FileName: Makefile
+SPDXID: SPDXRef-File-c0ee6cbf839b8ae4d440974fc1945279a1713817
+FileChecksum: SHA1: 00ae203b466fe96fa4af42b71bd799d56d9d26ab
+FileChecksum: SHA256: f9f5fc51a5fc1c78728f6edb9a38469bcd6edd53ba4b8db8a8757db18507063f
+FileChecksum: SHA512: 9ae2d8b5f903cf67c4620d744bb4252e38e117cbc851a5f0ac985e01f38c1505170ee286b93b6cd9cd3863e5a47816489d51cf2193882d0cc7ed05479e589a2d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-c0ee6cbf839b8ae4d440974fc1945279a1713817
+FileName: README.md
+SPDXID: SPDXRef-File-be992a305d136c8c1f05bc1bdedff89d458ce9fe
+FileChecksum: SHA1: 6f278b3dba3731ccf641515004eaee7e2a22b831
+FileChecksum: SHA256: 5ae049ffbab1c4efdb6d9d7b0d5094067080c57b4be996b4388292693b41e703
+FileChecksum: SHA512: 4cf179a16d921c18d03c55e6ab7f974e33e795ed2e707358b40ae7a8eebdb572754d17b9d17e8287ce1034d21cae382f0d9918239dc3489d33e914556abddc52
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-be992a305d136c8c1f05bc1bdedff89d458ce9fe
+FileName: certs/openssl.cnf.tmpl
+SPDXID: SPDXRef-File-18363bd7648acf365c6d8fbc82400fd444a9584f
+FileChecksum: SHA1: 1ceec9bc99ea4c9f79432d511482e60f154320fe
+FileChecksum: SHA256: 9af1e9a08a8d36d69bc884925e7e7c0649206ce2354d3f91266d262b78772db3
+FileChecksum: SHA512: 44dd46ba853f6a08c413c0e859c8101d408aed6bc12663bdd704bf28038bd18dcca36ff2e454e30ef2885bc758859f0ff05124eb4de4ec9f7f2e36727e43ceb6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-18363bd7648acf365c6d8fbc82400fd444a9584f
+FileName: LICENSE
+SPDXID: SPDXRef-File-2838be97b69f2d576eb4a929b3d2de324282e6b1
+FileChecksum: SHA1: 505aeaa591a455540a72370a8757798da6d2121a
+FileChecksum: SHA256: 128bdf8d183b407605be877517331271ae1fc3695a1dcc9de7a72cd42aed777a
+FileChecksum: SHA512: 504dba7f4cb56f640824eded4af68c3a73c0193434315b9c2c3d9e7855bd00270da2381e9a9944551b62980ca7eef7d005b097c79c182ccf8e80d71eb26eb2be
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-2838be97b69f2d576eb4a929b3d2de324282e6b1
+FileName: certs/layout.tmpl
+SPDXID: SPDXRef-File-383752c523a965713c544507422ddcbb82605dd1
+FileChecksum: SHA1: ad377a80750ebeff2d49868fe0069facab0534c4
+FileChecksum: SHA256: 31258752e1fb6c591a475979c8049c7fc1763578c5a58fd7ac7357a41ffc9aff
+FileChecksum: SHA512: be9e1ff75a6621d020753c8e83f4c155b978bc9ee5fc7e74548668645461dd3ad9d078e49773448087e34b5869ccc0423d7677259c8f33ca7ea5a1fe57c171be
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-383752c523a965713c544507422ddcbb82605dd1
+FileName: cmd/in-toto/key.go
+SPDXID: SPDXRef-File-39cb7ca582319b5fa7ca9ba761995d382911b9ce
+FileChecksum: SHA1: 7a168a9b515a13a81b90d1b9f2df3ab369634940
+FileChecksum: SHA256: c8ef1e9e6699b9a26d64a39a382b7351b10833dac764c23bb80a70697d7b6796
+FileChecksum: SHA512: 8e15b805f508c13e3dcc56f1cfe77828ec1dc46faf7981b8a33a5956f06014678d88be203ad9e1295a6899b0e4fcd21c89c359ae01671e9bf77764b2d31d3828
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-39cb7ca582319b5fa7ca9ba761995d382911b9ce
+FileName: cmd/in-toto/main.go
+SPDXID: SPDXRef-File-f2220cd3e663c050ea881e11cc1d44046c3305de
+FileChecksum: SHA1: 55560e3a83420e6b20d8c489b99716ea995f9a6f
+FileChecksum: SHA256: 3eaf7081582a6439ccec9e994b5479bacb2169fbf15cc0fb101cfe664c7b7214
+FileChecksum: SHA512: ac9e756f2483ee7c531af0faee60eadda673ab177f3bab17914aa2742a5a74be53edfe9af82a6e539eb9f6856e4263eaa327419450223b801c5235704342728a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-f2220cd3e663c050ea881e11cc1d44046c3305de
+FileName: cmd/in-toto/record.go
+SPDXID: SPDXRef-File-9fb5f733ebdbe1cf84113e6bdc33b824107807e9
+FileChecksum: SHA1: 93496d46fe242d3902330aba9552e681278bef03
+FileChecksum: SHA256: 6c060eab948ee3e31142640d4ac52768657a1fc7eb3466c2f14d37a100436289
+FileChecksum: SHA512: 8f9db56cafbd6552e9d72e60f8cba2c1a0b4497869cd7d1be9fd6b187061bd3f7a52660afc4dbdb243428797e9102dea6013578522da579e6cfe2e23a79e5358
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-9fb5f733ebdbe1cf84113e6bdc33b824107807e9
+FileName: cmd/in-toto/root.go
+SPDXID: SPDXRef-File-93e8bdff6d6be013283b37226f1ca2dd39e121ea
+FileChecksum: SHA1: 1b585c5d0286a8020372e54b3f3babe6d967f205
+FileChecksum: SHA256: fe8dfeafec97f6a63e8278b55102944b28cde0622e67cb5df0b0c5af6cb7244e
+FileChecksum: SHA512: 54c8c713790f1d5d386faabe58710d74a828190e891852dedfb84f80d599b89e64563c4de3b7a54e6d07a099b7794c8558b031bffd8e233e18a97a34f36a979c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-93e8bdff6d6be013283b37226f1ca2dd39e121ea
+FileName: cmd/in-toto/run.go
+SPDXID: SPDXRef-File-bb9115677fe5bfc459da19a73e360d277406ebb4
+FileChecksum: SHA1: f85bfc686fd9e27cd6aebf0e3e9eb0378ec334f5
+FileChecksum: SHA256: d8f007a5fa30053862a1340b34602a170b6c1536e815c3e8000d3b0f8c5b975b
+FileChecksum: SHA512: 2473511d2dbc41ce5cbbe914d7a3c61e80b288af958727488a99f5718ead5c59769849358f2e0512e619bc12db22c6382bb2ef04953321d44a521f068cf8a2f1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-bb9115677fe5bfc459da19a73e360d277406ebb4
+FileName: cmd/in-toto/sign.go
+SPDXID: SPDXRef-File-706202da01ba721fa9816066998acac02e0ea890
+FileChecksum: SHA1: 914dc703314601791b1fa087f3489d95bed703ad
+FileChecksum: SHA256: 8ef3595b67ebad655c49d91df09d2e8215a7f2a8ce5fb765a45bdbd535d05d86
+FileChecksum: SHA512: cfbcf1847aef0bc8c0186c2f410a69060af9e9481ff618eada3a1354a267a78f086541153bbebcf7de764dea5278424e81077b0935cfce713fe4381af5103fec
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-706202da01ba721fa9816066998acac02e0ea890
+FileName: cmd/in-toto/verify.go
+SPDXID: SPDXRef-File-2b6b57e0db46a9b22486cac465b8a2518357b114
+FileChecksum: SHA1: 31084670cb36a5bed79dc704a18104c72818d081
+FileChecksum: SHA256: f2d71551dd1ecd285dbf020bc489dc5fa1420d655540c9975c9a0e82a97f7147
+FileChecksum: SHA512: a74fbf699ea7c1c198da1237c73958f381e92ce4c8eb9fcd81d5ab5542f5dd110ca7a4838025da378afe1672477f768a0275d0dbb3a490cf74b71e1960dd19fe
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-2b6b57e0db46a9b22486cac465b8a2518357b114
+FileName: go.mod
+SPDXID: SPDXRef-File-cf8aa2d5c022e31e3630cafb39b9568b0812968d
+FileChecksum: SHA1: 0851b78cf81bf0d2f54e0ed361f3d37efa76b537
+FileChecksum: SHA256: 91bf34b2bbca9e6c02bf5b63b5a2f4e8fbd722ee2af04526e9a1e040f8e87ad7
+FileChecksum: SHA512: 83c1d0d25982b62f997023cb7b85172ea82145b015e18fafbe599bb345c1444ff7f76ba7419c6bea09a0b0302445d805186e98b3119fe7cdf631df3c414d1b5e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-cf8aa2d5c022e31e3630cafb39b9568b0812968d
+FileName: go.sum
+SPDXID: SPDXRef-File-566e449985b7044b3a0e2c0a49707e8619776aab
+FileChecksum: SHA1: 0591c17788423bd814cb4e55f1118c0fc2f81bbd
+FileChecksum: SHA256: d6b7c416ab0abcff3f7b60cb8610778cf4d6423cef6c0f8b36bd6a48799d43a7
+FileChecksum: SHA512: a38556943459174eb2844715358d509ade01150e3e9b63d708f25d0f4e016c8c82b9b52d70ffa2127f1e96e76d613929c7253dbf73d47332141c4227fa284240
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-566e449985b7044b3a0e2c0a49707e8619776aab
+FileName: in_toto/canonicaljson.go
+SPDXID: SPDXRef-File-16b0aa052e945e2c77df350da6924a7d9b1ac173
+FileChecksum: SHA1: 288c8dbe74acc29b7cdff2240762789dd28642da
+FileChecksum: SHA256: c50c3f6968c8b3c60678aeacd137129ae16a4d33fea43ec6ff0475ecef8cb5a2
+FileChecksum: SHA512: 40b1f3780ffd7e47b7505b792f94edd5f50c7538b099e403cc0528f3208282178816462d0468ca6c82f6086dfcc87aeccd5c6f4b94cc38f0f782b9aa564a5b63
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-16b0aa052e945e2c77df350da6924a7d9b1ac173
+FileName: in_toto/certconstraint.go
+SPDXID: SPDXRef-File-8f3d18628fb1bb752ccdc2505f80b86ff9fbe8ab
+FileChecksum: SHA1: adbed195c1e6dd0180bdd3645f491cf6632ddd5e
+FileChecksum: SHA256: 45b401093a78fc4fd696ac3de85a28a275a6f8e28a05c632877282209e09fdb3
+FileChecksum: SHA512: f70a88e19b7980f0f81b8f49340636c883bb38743960da7463ad8fe3124886589de700991e34fbaae0c08acb90d17c7a5bb7f6b91cbb1b6152c22a04581f0625
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-8f3d18628fb1bb752ccdc2505f80b86ff9fbe8ab
+FileName: in_toto/canonicaljson_test.go
+SPDXID: SPDXRef-File-aaddf58688e119c78041c8f1d8e8746bbb9d166e
+FileChecksum: SHA1: e47eb0e319a4c306c3267e3e01f2145e581bc737
+FileChecksum: SHA256: 7b5ff6f635d2ab50a9e768e6d7af7eabbc63e6776b0e2a1ad11e2ba3f5a1f954
+FileChecksum: SHA512: 421289411aa47e83b90524e29fd36e5c6493f148103f6b0fa8fbc073f1ade4dc319217861f2884f6380ac577c327dcbfed85fbfea04f2e90434bc2dbbbb7cb6b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-aaddf58688e119c78041c8f1d8e8746bbb9d166e
+FileName: in_toto/certconstraint_test.go
+SPDXID: SPDXRef-File-11cc2b0d83d4c8e7a66dd102dede7be1ec51357c
+FileChecksum: SHA1: f2e0f9436a489e5367d0821751952cdba91ec0c9
+FileChecksum: SHA256: b5a32f48a9bc93c95bdd8fba37175f5403bb5fc545d5b8080f605dcaebf34145
+FileChecksum: SHA512: 9d6476417f9ff9c01f5a332cd744efcd8884f9d853b7ca2e9ea1ad4769f1f6722f0fbc0b82f7478f3ca89d722d73068dad7c2aa933193a99e4a090ee04d9dcfa
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-11cc2b0d83d4c8e7a66dd102dede7be1ec51357c
+FileName: in_toto/hashlib.go
+SPDXID: SPDXRef-File-b659f4fb2bce84a937f378eb28c4b3fe4e66e3a3
+FileChecksum: SHA1: 297ee7ac97dd3d3f92ec1f5ccab565ff504667dd
+FileChecksum: SHA256: ca76bd87856aa6e0e0239ec030cf0c9ddc1c80b350038457f33fbcd78a171dfa
+FileChecksum: SHA512: 5b1dc0ad3789203ced8ee591b9ff053b956becb70d5e8f0b01ac9598847ac7a38a8919eb38a25e484abbf58570eca5985928b839839bc92006debf85d45f2996
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-b659f4fb2bce84a937f378eb28c4b3fe4e66e3a3
+FileName: in_toto/examples_test.go
+SPDXID: SPDXRef-File-a7b727c6237390d48bef4292d4d3a132782e250a
+FileChecksum: SHA1: 37f4ba454c1ef2b744bbb61ceb11c6087be98012
+FileChecksum: SHA256: 62e34e29caf977d06e2e9673a9372ee6943acd0755b35e428e18c559a2c3b484
+FileChecksum: SHA512: c77cd43462649a05b4cfa5ce58915a3c644911cba964c017d017509ca6fc1d0aeef5203ff5def27d2ab1eafac81227c96461f07271b2b586590585e25b90fc1a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-a7b727c6237390d48bef4292d4d3a132782e250a
+FileName: in_toto/in_toto_test.go
+SPDXID: SPDXRef-File-b718ee26f43205690b9b809a94e6ea06d22d5b59
+FileChecksum: SHA1: 5d2f9ebb1fdca1ea33b28d97f3fcbabd5568814e
+FileChecksum: SHA256: 914c918c3204c5f8fa466ed22d4329ef10b7de19eca715be4af56329b28a2746
+FileChecksum: SHA512: 35b04be322c97dfea17c597ca1c65820be9de64634d0b0e0bc4f044a10f1076d9f600c20832a87c55047c0e157904d5478fb55ae6a0f800d134950a62a6576db
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-b718ee26f43205690b9b809a94e6ea06d22d5b59
+FileName: in_toto/keylib.go
+SPDXID: SPDXRef-File-b654211d9961462a6f0d8ebe1c8a3c24f14f7f2f
+FileChecksum: SHA1: 0f7538e750a7013a4532513d90554758856aa6ce
+FileChecksum: SHA256: c318388c96ec5238dd34544ab4c1cac32476dc764db2dbe7d6bf09184614611f
+FileChecksum: SHA512: 8b124aada182a79e33da7bba634d286e338a842b3a978f1679c3cb8c19e1622ff37d3f44f258eb529cf33e8f2f50c28e6a248f0a9d40cf2bf7f6c76bfbb0de49
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-b654211d9961462a6f0d8ebe1c8a3c24f14f7f2f
+FileName: in_toto/keylib_test.go
+SPDXID: SPDXRef-File-8a92f87ec6e942bfea33e71149c4e9c4a94f1663
+FileChecksum: SHA1: 7899f2a46960807b5967a0d0af89abf76e7017ce
+FileChecksum: SHA256: b06c16ee2266bd54acd6ea78924caa96c33348dbd61b5000122bda8340b38b7b
+FileChecksum: SHA512: 312f770c51aaff182e42412f5d7d621aa6bffcbc5f46a3120f1c1ee3f60660427465b550ff487ff8a087ae9400343f642119e169de25e71e1e968034956d749c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-8a92f87ec6e942bfea33e71149c4e9c4a94f1663
+FileName: in_toto/model.go
+SPDXID: SPDXRef-File-145c0230ad7cadda4bb41864a1dd70234030e947
+FileChecksum: SHA1: e966b84eb86707586353cb437d990733c3e51bd3
+FileChecksum: SHA256: f311a00e061ab7e5c01ff6778ad8b80662d058c9ac544084bdc41c91776a5851
+FileChecksum: SHA512: 135c9233c2f713934aab85ef01b9e980c35b44e00704a5b8c3f8afd88c5a884e8878931e67bc8741fedbc01159ace54899d3f60f200691ab4d2ae702820fae22
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-145c0230ad7cadda4bb41864a1dd70234030e947
+FileName: in_toto/rulelib.go
+SPDXID: SPDXRef-File-60bfda7b74be934437dca93fb12287027c579873
+FileChecksum: SHA1: 03050c3cc621e577e3c7a66763f927448a82d7c9
+FileChecksum: SHA256: da60f246ae0b21a200905d12a67203f4bdc380f24d0ae71d493ba4d5d753789a
+FileChecksum: SHA512: bceb12196ae00f9eb25f90d1b81e26e460453326afe8dc66f5f8f0cee573f69dbc29b65e4d371b1d14d3ecec2bf31472692639fa4ef1231230f889696d2d4574
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-60bfda7b74be934437dca93fb12287027c579873
+FileName: in_toto/rulelib_test.go
+SPDXID: SPDXRef-File-fe969b115925116d4477eec9256392024827e395
+FileChecksum: SHA1: cb09a4312f0e1775c3b206e16a86b462e670b539
+FileChecksum: SHA256: 2fa21abee1ed5d72ddd1eedeacded181512b11e28ecd6860d45b3ab6cfe33b67
+FileChecksum: SHA512: 4e04b90c8a6f5c5caca1375ce1b94fcd15f191f529d3411d77df5832b1af5d9a8bf037350ab8ac40eaaec1d174c6b292a94592021d4faeb852119c523ddc5db8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-fe969b115925116d4477eec9256392024827e395
+FileName: in_toto/model_test.go
+SPDXID: SPDXRef-File-576ff7e36a258b6a73a0be2476558ecfc793f18c
+FileChecksum: SHA1: d6e791f0008baeb151a538899cb7b95ef4c362f3
+FileChecksum: SHA256: d192e5ba6782adefd8346534ebbbce6e00094ccc734a74ca91b25eb8d533213c
+FileChecksum: SHA512: 4c764af08296e82c79affaa95128534d2e835203dda69020b35a38ba858f571db0f0229876c654c34b14e2725f56c63b15b549f2b7071f4715c9195ccf6fc5b6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-576ff7e36a258b6a73a0be2476558ecfc793f18c
+FileName: in_toto/runlib.go
+SPDXID: SPDXRef-File-4698186df50b7117777c260b90f5944d1b469999
+FileChecksum: SHA1: 5222bb6ea8b1c9c24c1920b540d2781163d25357
+FileChecksum: SHA256: 07ade60e7a476cb8bcce41e1c38c011a5e968d91651f56cee8becc2acd4d0e6e
+FileChecksum: SHA512: 0828a6264e910f7fec2eb28d270d577ba12c11f62a604aee86112a0d417d1ccf915f90ee80c25e31d0a58755923be89283a1339c74728bcb39c868de2e1ddc91
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-4698186df50b7117777c260b90f5944d1b469999
+FileName: in_toto/runlib_test.go
+SPDXID: SPDXRef-File-9787fe712343f34844d2f2d6f63fdb2cae34ba3e
+FileChecksum: SHA1: e77cf887e54b764508b925559d2e81abf2f7c7f7
+FileChecksum: SHA256: 326a55fe1b962ad6c0adc6080b0f6e872b21cb8864015b48d4a915aa3c10f71d
+FileChecksum: SHA512: b19d5e22aa407e90ffadbac9318cf35aa25c93ecc20c5aebe11c5c5a64cfb9ff994f6791d0d5aca80fd167ac5947b43089841b2ddbf1d8a13186208c9d1e884a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-9787fe712343f34844d2f2d6f63fdb2cae34ba3e
+FileName: in_toto/util.go
+SPDXID: SPDXRef-File-e2a9f579d10001075d42819f8078ce7de82f4ee5
+FileChecksum: SHA1: 7dd89db125a146429e9f4655994d148e70d119dc
+FileChecksum: SHA256: 1edde96faf37ee12bac533604503e9b7edf8ca5889a72efaa5b3774a61db6698
+FileChecksum: SHA512: e311362cf6276c83f690f86080c69aedd7fc1155a3e2967b3c6447856b6a987ca421cf6465d597674c903f79a8cce0e6b784ec841560792ed560b9d4bc8a7fd2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-e2a9f579d10001075d42819f8078ce7de82f4ee5
+FileName: in_toto/util_test.go
+SPDXID: SPDXRef-File-73896ae71c020664464056ec0b27a18c926a69b9
+FileChecksum: SHA1: 01bf434b9a4a3c8f34311e278f21153c61f2d32a
+FileChecksum: SHA256: aff74432869d9764a7c06897d31a21a9985586b31d267ab82b815394cc9ae04d
+FileChecksum: SHA512: efc793594b26ed5eaa36a7723cc422474fc0568dc294a9c8c1505d4ad3ad65b6ebabb83e5f28de661c53426c1696aba93a7615a85b411ae021a8d13806b3074d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-73896ae71c020664464056ec0b27a18c926a69b9
+FileName: in_toto/util_unix.go
+SPDXID: SPDXRef-File-97e96507b553ff209ebc43373c52565fd3c0c7c1
+FileChecksum: SHA1: 27232782c089f4ffa21215977aee38543fa26261
+FileChecksum: SHA256: d836c8a110c4433ce326eb485d6736a40488d8bbae9ceb26d7497813cb9494a6
+FileChecksum: SHA512: 36b0d46ce122cc3bf2e7f4374cf81d6ab713dff7aad5f13f15a8110bd3385ac307da7034ffaf2970eea457a6fd6ddbd44ebcc2f3aafe76342db4487d2eb454e8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-97e96507b553ff209ebc43373c52565fd3c0c7c1
+FileName: in_toto/util_windows.go
+SPDXID: SPDXRef-File-04bd143e619633b336c704a19dcf1d2222e60ba1
+FileChecksum: SHA1: 5edd530217414a040d5955f41b6e1aa567259576
+FileChecksum: SHA256: 8d6c1692147acb4370678db700cb24243c0975a84d4708c6b381fdfd5aace65f
+FileChecksum: SHA512: 6dd6e00336285c4349e94cf6f78d4e9b81d2ca51e60e8b1749693283af45ad7d343981dd7374feccf7104413810edae8c3dcc9cad771b633af33d249844b7422
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-04bd143e619633b336c704a19dcf1d2222e60ba1
+FileName: pkg/spiffe/spiffe.go
+SPDXID: SPDXRef-File-e2497852d587ac0147bd1feab0bd06021e50253b
+FileChecksum: SHA1: 9b0b4160332e9bcc0a6c03cc2877def415475abd
+FileChecksum: SHA256: 1e3204d25d1b8257a5bbf9169f47be1a37ce7e61a6cdf15eaec4b59c2e99b267
+FileChecksum: SHA512: 758c1b8aa36bce316072d1969bdbacd424a59e00bce33b33236ffe2f60a6ef64cc70dc5b5db887d5839ff3f0317ca5b3cea2931a4073706b48511c525351021f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-e2497852d587ac0147bd1feab0bd06021e50253b
+FileName: pkg/ssl/sign.go
+SPDXID: SPDXRef-File-cf5f9dbafedec2b7691f596cfb869b3129b474c8
+FileChecksum: SHA1: be8cb1e81e6c36359196b0917c45fd7d4ad0ee41
+FileChecksum: SHA256: 87361eefae268e09c4e293cdb6ba0064d46fa8c497ddf01e62a2d423d293be68
+FileChecksum: SHA512: 12dd3596c970952fc7bf74d248627902519b72f743d42276b5b28ad2e9e6ae48965a8d1f96fa6972292fb9b5ed5dd7b7cd79c002ac7a304b5b6e27d41552c8f9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-cf5f9dbafedec2b7691f596cfb869b3129b474c8
+FileName: in_toto/verifylib_test.go
+SPDXID: SPDXRef-File-b1d5647de64502d64bd9603babd5bb354fd34c16
+FileChecksum: SHA1: 44eba48d24b0eeccaac334515087371e4a3ba036
+FileChecksum: SHA256: d48e0af5418fa6a088be7d28e971623b8adb70ac8f10e29fd11efbbb6c6be761
+FileChecksum: SHA512: c40d62fd15195f2616b9814864e0d0034fb9523b2c3ba2e27227fab8ce523115e3459a61fff9387286c520cb6e4d2ac679f2f6897eaae35186831058144015fd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-b1d5647de64502d64bd9603babd5bb354fd34c16
+FileName: in_toto/verifylib.go
+SPDXID: SPDXRef-File-e4bfd984ac1e44b4fadbcb99d8a4682ab79ed5fd
+FileChecksum: SHA1: d7dde4d9b3560a55a140245aae9bee154f5c3985
+FileChecksum: SHA256: e29054823b9d651f536b0651e34b22ff9b090d0782654e0101af0ea0b3aa3b4a
+FileChecksum: SHA512: 84cab14c5f25851053087b4de4fd8356bf86d09000a97f60179c2a48b1b5c374a07596f2510b88bd64faf01a5fd9b189b0a722f5a021e2df0a836cfbe2e4bb9b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-e4bfd984ac1e44b4fadbcb99d8a4682ab79ed5fd
+FileName: pkg/ssl/sign_test.go
+SPDXID: SPDXRef-File-dd740fd3a500b4574687d920dddfcf7040a1be13
+FileChecksum: SHA1: 8b2d3625b663bb0a871993e7ea3b0c2d2f193713
+FileChecksum: SHA256: 0cee6af71599e8b1387775aa2e099d90c4597c90a8393dd09fa93d3fd41ae7fb
+FileChecksum: SHA512: f2de8566e1c5353a80ce00a4acf200b2be65b9d6872ca384d5c6b7e4c2d465b68092edcf09c9c0c20a0020bdc78546408b9aa6050b30f76a7d828c73fc2ea036
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-dd740fd3a500b4574687d920dddfcf7040a1be13
+FileName: pkg/ssl/verify.go
+SPDXID: SPDXRef-File-028e213332df5e109929f0a235f0d4953855cf1a
+FileChecksum: SHA1: 60c86bff037154966e43e06bd8b9d7a79b3869c2
+FileChecksum: SHA256: db2177df875aa80c73e45c9d33891aaa779129fcebff0e585d0419f7986da401
+FileChecksum: SHA512: 5dad13765a0462139b68c834c796fd32fb0324773369626f9c705ee524b613c605cde0ecd299e8f45bd0150368813ebcf3430f34739131044baa8057c2626890
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-028e213332df5e109929f0a235f0d4953855cf1a
+FileName: pkg/ssl/verify_test.go
+SPDXID: SPDXRef-File-6574116a3fa5732009dd880fd299257ce9a4fbbb
+FileChecksum: SHA1: 0a14e7a813de6758eace3d73f9a30e861ad115db
+FileChecksum: SHA256: 1d13f2f4d80fc35b77804acd4a1a40e302a332ba997449a4fd495a6b5f5acbe3
+FileChecksum: SHA512: f170d303c12d2ea4887547197ae3dd614116c566661cf674efdcb61c9c167bd187c9f5ec6c2140ceba4540ed633e2e992d52584306b272860403690898965ce8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-6574116a3fa5732009dd880fd299257ce9a4fbbb
+FileName: test/data/README.md
+SPDXID: SPDXRef-File-37eb80be44d0284624877bd425186dcc3f365af9
+FileChecksum: SHA1: 9461533d46304acbef3807b6ba8406dc463f18b7
+FileChecksum: SHA256: 38f294c58fccc2df47bfd2be69e3325c2ebe94e2f36c5e10fe0970e4dc67505f
+FileChecksum: SHA512: e2370caf101c76d54dfd2db47d17fde5072ddc5cc5898f3d9f40ce5e2d930a502c861d192bfc2a978e4ff09b331a6422d922f3720282a40e8e906ab9c45e9a2d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-37eb80be44d0284624877bd425186dcc3f365af9
+FileName: test/data/alice
+SPDXID: SPDXRef-File-79824c794f6854350ce2af3f62b430579385ff26
+FileChecksum: SHA1: 40cda7ec927b269625c4b06daa73557028abd4bb
+FileChecksum: SHA256: ae3a526ad26ee452986a8611cb518aabf4d13bf03a7b933aef3dffcdef07450d
+FileChecksum: SHA512: a02bed5eec56de7678fbfa8c20b0f0a23173d61c33bb6a42880caa9abd37ae740b9c0cc64d83acfb3654f363566dc23d568a5c11d7fffa0c2c307b0e27f1c6ca
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-79824c794f6854350ce2af3f62b430579385ff26
+FileName: test/data/alice.pub
+SPDXID: SPDXRef-File-dd63283b520f21e8c02e09bd29f42ddafde73412
+FileChecksum: SHA1: a2e49a449093f6e346470da50138b171a2021321
+FileChecksum: SHA256: f051e8b561835b7b2aa7791db7bc72f2613411b0b7d428a0ac33d45b8c518039
+FileChecksum: SHA512: bdd7c493e3e94484873371591bbbd2d52b9b832c28f4aca8b942cabe3341a773818528d96481dfbc530be840cf4e3a5be40aad93f573211cf1a95d65b0722643
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-dd63283b520f21e8c02e09bd29f42ddafde73412
+FileName: test/data/carol
+SPDXID: SPDXRef-File-711af5a56b464caabc6e4c6729381cf72acb72e9
+FileChecksum: SHA1: 9722d5a48d0bbe074d46b84777debcecc53fa436
+FileChecksum: SHA256: 97b8f3a74ab5e5ee12d42d465b645d273460078cc3be15e312fc5ca4bb1d4576
+FileChecksum: SHA512: 1564deb228288f1ace6ee3f0637c171afa24425d3e9569da89b6cd547877c11425e7ef87e0ab2c17dc0c874421e0bc739d896e174386584392321045de0feddb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-711af5a56b464caabc6e4c6729381cf72acb72e9
+FileName: test/data/canonical-test.link
+SPDXID: SPDXRef-File-0c2c2f3e516e0d89f931b549701f178ecfb41b51
+FileChecksum: SHA1: 4f00a301e74953082604c001e31d8d31c8fbf8c4
+FileChecksum: SHA256: d14484a7a90fea0716b9cfa5a3c76ab754f6b0b0b107ce8d7848aa0c10e54e53
+FileChecksum: SHA512: 6a1685ea8ddd17054797b93d81878b4e38f03ce432fd8ed943451bb4c6bd7de6c6890fd8f1a6d37fd1c577f57bbe42d0a11918316917300ff9c2049f4f947960
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-0c2c2f3e516e0d89f931b549701f178ecfb41b51
+FileName: test/data/carol.pub
+SPDXID: SPDXRef-File-5fa9a2bb28d3da9d7887674d9f37fbc2ca93184c
+FileChecksum: SHA1: a1f28aad77001e7f5f84a21ec7feb9ad9ad5319c
+FileChecksum: SHA256: 6bc329d2824ad0dee13f9162579af8a9e171d9e75fbd0d66876d918affb2fc7f
+FileChecksum: SHA512: df4668f57eadb577ca6952be2dfe6e374d121750099c11289aa36ace894ae196f54efd17af11c315e91ac65dac5f09f74fd9325bb7bd8e3655700d6e7d101121
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-5fa9a2bb28d3da9d7887674d9f37fbc2ca93184c
+FileName: test/data/dan
+SPDXID: SPDXRef-File-adf4fcf5a578321c99ae3916ab97050d01cae122
+FileChecksum: SHA1: ca86fe0742e4efe7e623d7f59b7c6ba488ef207e
+FileChecksum: SHA256: ac5d57e3841f02bcdc8489bac8f9a0b592a7b37abbff5d0cc97d2a78d379ef23
+FileChecksum: SHA512: 8272a36f0d33e4e038ad415abbae6198818acafa0002cb6b79f17103b7e596cbc7f6bb1eff5a4330b6a1c88f7176df99e2ccd33d1629bc3c80dfc4603aa8b2b4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-adf4fcf5a578321c99ae3916ab97050d01cae122
+FileName: test/data/dan.pub
+SPDXID: SPDXRef-File-a11d8388a296dae01cdbff11f24370067e985744
+FileChecksum: SHA1: 484110c83d69a7e49b7b179ded15e863d371d860
+FileChecksum: SHA256: ae8246e55043fb1a95ca87307bf5ae2c6655bc5934a6e8087b2eef2223bd3a87
+FileChecksum: SHA512: 8a30ece88f8779d843cda0e2fc23d4e414b9e1229455f2c02eef8ee46d858921d5823a3bac4115e1e42f896ffee82bb9429477b667b3e365af5790b833cedd56
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-a11d8388a296dae01cdbff11f24370067e985744
+FileName: test/data/demo.layout
+SPDXID: SPDXRef-File-50e3132ce342a91764540b253e10030854752eb3
+FileChecksum: SHA1: d145ab0aa5f050706f38a035ea86e044d31c8c83
+FileChecksum: SHA256: 9769141c70f4bcf270b428fb7c029880bbd857628bf4ae18cb2ac4013da2c1f0
+FileChecksum: SHA512: 8bf58875a0c48ea4994bcc86e171bb628bf8cc1ae6a4d7e21631ab5fc65601e4b3b48c4abb0a930f9ab0537692c49ed88a56ae838e0da823056f5aaf2ab5d35c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-50e3132ce342a91764540b253e10030854752eb3
+FileName: test/data/erin
+SPDXID: SPDXRef-File-0ad37d945cd5010ecae787fb9149220ae1caae18
+FileChecksum: SHA1: c09c216f8592ea826056a3487da4f192e0a1180b
+FileChecksum: SHA256: eab475407b59988c2c2ed5cf1bd8d9b5f4ee9a4a4179ca8a606a7a6fd4652bb5
+FileChecksum: SHA512: 05f0f3bd80e820385e65cdfc9405d57c56724c4ee76654fb84e8cbeb53e864e4c662336ababd445c855c018a0b345a2635de6ec902a90e73e92f61f00e073aaa
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-0ad37d945cd5010ecae787fb9149220ae1caae18
+FileName: test/data/erin.pub
+SPDXID: SPDXRef-File-2e79d92d0834d3e7dc07d8fdd68d7c2d49cf2579
+FileChecksum: SHA1: 1a92de9cdcc2a722ae689c387c40a823906a59de
+FileChecksum: SHA256: bb0a48ed66605d0ec5846a2b5b7e8dad21cd0a7b1b54f0107ec53a355e749863
+FileChecksum: SHA512: 1e5980bd7796cacd4aabe225d293ad832c6428b1b5130eb047594753384b16c69df4d93b902ffe3f6d048e97b616d6e6073dc799967a0414ea5c5a585f2f89ae
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-2e79d92d0834d3e7dc07d8fdd68d7c2d49cf2579
+FileName: test/data/foo.2f89b927.link
+SPDXID: SPDXRef-File-53481204033e02b20a79b7899962db8879ebdfe0
+FileChecksum: SHA1: 7690e80154f332bf183a936e758ebe3a0ffaf56f
+FileChecksum: SHA256: adafe18b0058c4f51ff4f5ccdac8540302e9c6f7362af23fe5bbb033fb5cec02
+FileChecksum: SHA512: 1a52e4eb4d71ae6c244a68550a524c4bbdeaa3f9f2d58c9c217fbdb90697a0d0dfc85caa226add24478878e837c31f0d3311b4144e985fbc90776151d4bfa64a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-53481204033e02b20a79b7899962db8879ebdfe0
+FileName: test/data/foo.776a00e2.link
+SPDXID: SPDXRef-File-941871ae0b9cbd09a1b66fe4ec5b1ad5d465e78f
+FileChecksum: SHA1: 98a01b30fbd38c71f194c7d3a0abc117d3072ef0
+FileChecksum: SHA256: 7464a426d2967c09fa1c21465e46852ec1f23d39cd0d4a1e9528b580ae7c7206
+FileChecksum: SHA512: 822d550c23c20940b1b00b0dd0126402e0cfb9130504ff72df5d81e9fc29b495b71e3996ec9f4c6eeceb80956a85d9162af29bd4919b179c06b6996322b146b1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-941871ae0b9cbd09a1b66fe4ec5b1ad5d465e78f
+FileName: test/data/foo.tar.gz
+SPDXID: SPDXRef-File-337045bc942cac629fc4d801589c2af3fe469dda
+FileChecksum: SHA1: f16abd1504b8edfb24c3aceacf5575824b4bc514
+FileChecksum: SHA256: 52947cb78b91ad01fe81cd6aef42d1f6817e92b9e6936c1e5aabb7c98514f355
+FileChecksum: SHA512: bb040966a5a6aefb646909f636f7f99c9e16b684a1f0e83a87dc30c3ab4d9dec2f9b0091d8be74bbc78ba29cb0c2dd027c223579028cf9822b0bccc49d493a6d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-337045bc942cac629fc4d801589c2af3fe469dda
+FileName: test/data/frank
+SPDXID: SPDXRef-File-9a2969ae2a0aa356143997ba62a9b188da53d5ec
+FileChecksum: SHA1: 4e12a7f413ad66422a0f4cf7fcd2218ccbfda150
+FileChecksum: SHA256: 52aa79a64ace89dd25548d59a9e893447bea9b9ae4720b7370cb837d14ea95df
+FileChecksum: SHA512: 011416e3a83ed86051349e2f29deaa7027870309ccc64b2b9942e2a7b53920b182ee1b8303c176f468bec13c7ebab650f2e091b66e6ae4c2d12a085381cbad9e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-9a2969ae2a0aa356143997ba62a9b188da53d5ec
+FileName: test/data/frank.pub
+SPDXID: SPDXRef-File-13b24f250b85d70652f36b5b12647de9dd797d91
+FileChecksum: SHA1: 7798933d9283a5e9c7b176dc4834da793768b422
+FileChecksum: SHA256: c8c255e1c7ed6eb0432ae1f01af9071927dc678868d7d66a88d73be0c287e966
+FileChecksum: SHA512: 3aa1ae481677ff5a2bb7c0a3e02ed462275fcc8a9677f617c5c9c77e187835c75c87bc4a2e92845827e7f4093fd5231885a182546036a086e5c1ebd442c78886
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-13b24f250b85d70652f36b5b12647de9dd797d91
+FileName: test/data/grace
+SPDXID: SPDXRef-File-80bb8d85351b5f98a0f4901698dfc34fd97fa98c
+FileChecksum: SHA1: 169bf58a74633804252d1c92b80924175130f31c
+FileChecksum: SHA256: f41354bf85268eab9a95d8de64d3efd7a1fee164e178557beb9e23aa3006c57a
+FileChecksum: SHA512: f3b9366d0570a116eec164b4cd8597422a90f076d265e59dc80d58284ea54c8d2109a332d945995895d55028be851944ce41e9252e715e9d0e1a91c66acae2bd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-80bb8d85351b5f98a0f4901698dfc34fd97fa98c
+FileName: test/data/grace.pub
+SPDXID: SPDXRef-File-d0ed091fa4eecd9045c6fb1df10b989604ddffc8
+FileChecksum: SHA1: 47f1b9e36c324fec23956061193efca857173795
+FileChecksum: SHA256: 52b75b7b125457fb953abda8e8f1db3c42002979d48e0387103d71113a61ae97
+FileChecksum: SHA512: e87ce8b1c4cf4eb68e3239f5ffadf44380a2e8c0aa29bb225ae153d57e1dcb647e0d0a1cb53309fbd79c4e9fdd55e1ef866a9c76fee714ca7e781cd582cd21ca
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-d0ed091fa4eecd9045c6fb1df10b989604ddffc8
+FileName: test/data/heidi
+SPDXID: SPDXRef-File-7d722c3e2f9809d0df35bb7e07ce92924c80484f
+FileChecksum: SHA1: 0c64b2d88d180940c2e184769f11dce667cacb31
+FileChecksum: SHA256: ef67edad4cf43fbb80e425d451a3336e82deaef18a627d8bc014a58d6e6f0bde
+FileChecksum: SHA512: e779440f4828375e124f0e4eae3551dcc8816d4edc64852a93b0622baf3c33ee38309adbc41da92ffc9125b2631013541e295e5ba99372d2e22f86485fd5546c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-7d722c3e2f9809d0df35bb7e07ce92924c80484f
+FileName: test/data/heidi.pub
+SPDXID: SPDXRef-File-691d5b009b39ffc67dc633144a9a076b88faab85
+FileChecksum: SHA1: c3644cc3e1a73fca37b86f8e89ee58b85e307bdf
+FileChecksum: SHA256: b75b598793721e65bc43eecdef5f3c299f35f7eb8f17144fbec9b210acddd1af
+FileChecksum: SHA512: 76b9e4c1a2bd5557dfe2b1c30d3d134d61d37241dc682ab00daa450f735e8d709cad1d2cf0fdcca5d92b306ed6acd47c2dc7e78acec4c35c2aacc5a0ca17d283
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-691d5b009b39ffc67dc633144a9a076b88faab85
+FileName: test/data/package.2f89b927.link
+SPDXID: SPDXRef-File-b2dcb77c785b832420de38110814ce6310bc72fa
+FileChecksum: SHA1: 9bf1a54e8b7218b38f69887f1fb9a9ed655e89f5
+FileChecksum: SHA256: edca24f9af6c18d64fd2d7df18bf6aa699097801c664944deedd86fe5fe991d6
+FileChecksum: SHA512: 21baa396def7bc1d5d74da441d89b9ea96dae9b1bdf2242ed2d28635ead9acfec2ab05c637dfa7090271c569fa1cab4eccc28a1fca5f2bb4b46b1002af6dc0b4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-b2dcb77c785b832420de38110814ce6310bc72fa
+FileName: test/data/super.layout
+SPDXID: SPDXRef-File-1a88df64459677aff091b956d5f706f5b3acdded
+FileChecksum: SHA1: 96f44fdcc594a5fc0db4acbf5a9243578c1068bd
+FileChecksum: SHA256: 151fa6cab6a2fb0a1646d950162d52959e5e09c4f013c0e2798464a7bbb8b5f8
+FileChecksum: SHA512: b196bdfcade99c2f57870de644c9c79529962b73e2071594cb6dbc400541cf97675f1fe1d2bfa73be7ac2eb492e8dbac6b450a9589695f639c4156bde16621e6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-1a88df64459677aff091b956d5f706f5b3acdded
+FileName: test/data/sub_layout.70ca5750.link
+SPDXID: SPDXRef-File-6ddda2adb0e8627b2d9e9cd6900bdc39e0086b50
+FileChecksum: SHA1: a218e40301e72520b44fa00c0586411e3532baba
+FileChecksum: SHA256: 3c669c6d858e1a3c62f00fa5613f267429c027386dc373fc203051bdbe3fd2ff
+FileChecksum: SHA512: f4c0e3c5c4b14d44a8d36309df49ade2ec6980c93617009cd29144048f173bdaaaf9c887d82caed880fc5e9f70a86ddd800f0e46c2d2ff039067eb0c6e76b280
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-6ddda2adb0e8627b2d9e9cd6900bdc39e0086b50
+FileName: test-infra/docker-compose.yaml
+SPDXID: SPDXRef-File-c958e60503fef05bf7d7a499811f9ede93e2dcc8
+FileChecksum: SHA1: 54173a95658a8111924effb958f0adb353dc9be0
+FileChecksum: SHA256: a1bb6cd1f3b300b492fe9f5df096cb5b8c08daf06fe14e370be74dcc5ffbcba0
+FileChecksum: SHA512: 0cf1de39185ba94f56001195e42e4486bd97ce3c0924cc5aa870f3d46ea4c972bba3ca14ecdc219608ae6d9bf8b28f9132d12cfb20b004d3d8e5f0ac1ec459c0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-c958e60503fef05bf7d7a499811f9ede93e2dcc8
+FileName: test/data/write-code.776a00e2.link
+SPDXID: SPDXRef-File-0cf7be4234ee3300b051be1082ccfe329a5b62f3
+FileChecksum: SHA1: 73082afa011b67542e0a98b52b386b57ab19f684
+FileChecksum: SHA256: e8f73126f06097c5982ca98f5470994c85c603a3a5bdf7897be5e4bd30e055b8
+FileChecksum: SHA512: 51cda0befe7a892985a1d7f3940bd737df66678c40923a569bb92ff5ea00b06b9449f487b6d8c8d9a0373b43c44a72d61d2f0822a3177df3759cda069ae57806
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-0cf7be4234ee3300b051be1082ccfe329a5b62f3
+FileName: test-infra/infra-up.sh
+SPDXID: SPDXRef-File-aa080416effe2bd7e5b14a5004624d3eaa2f08fe
+FileChecksum: SHA1: 3e83eb77d245116a264f6d1a61bff5c11fbc93f5
+FileChecksum: SHA256: 6ec39ccfedf976f803cba56e1eacb5b6d382c04dd4a414bcdbba69ca2f930a03
+FileChecksum: SHA512: 2eff531fb177233d0701ade95ef31ba7057d47e1ddfff4b562058ab67856bdecd5744f0375eb0482c206b872278dd12eb9acd600f32c20f4159c4b87225f577a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-aa080416effe2bd7e5b14a5004624d3eaa2f08fe
+FileName: test-infra/mint-cert.sh
+SPDXID: SPDXRef-File-3d60c7e982ec3fb5fc4aa3d03812d4484695f296
+FileChecksum: SHA1: dbd27c746c795524145af2df33d3d924c6df113e
+FileChecksum: SHA256: cbae6c1371509df8daf95f24410f476695d51e4f9d81919e8bc3176cedf3fc30
+FileChecksum: SHA512: a673214c5650fc62d0e413ff6b123ae98b8f0b8cfae4e0e782560593c43638f254357a515be1c3dc66eb5ee27bd29c4630a2b4c4b3d34436060695bd232651f4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-3d60c7e982ec3fb5fc4aa3d03812d4484695f296
+FileName: test-infra/register.sh
+SPDXID: SPDXRef-File-237906425a02ee66cc6c7fb934ceed094f2e5218
+FileChecksum: SHA1: 210d132648b663fb3a882f9a586d2e487c4baa87
+FileChecksum: SHA256: bfe805ab6cd572e135052981729a2397132fc074bfe0e0b06bf59f71e513de3f
+FileChecksum: SHA512: 5bb347a6fb40fb1c9844ee1d3cd53cc88d92d93d55550176689ea29a8fcad486cd9eb92c193edd752749f3bf63353205ba205271bd52c2478b4159ef319f3534
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-237906425a02ee66cc6c7fb934ceed094f2e5218
+FileName: test-infra/show-bundle.sh
+SPDXID: SPDXRef-File-12419f2a9953786f98d576b8a3357e2876836402
+FileChecksum: SHA1: 45305daa8eb66aef80ea62a12632202a7beeef95
+FileChecksum: SHA256: f2c7ba6ec545221c6205b0f6fb7a4b7c6554bdaa60235c644ea5dd3ab81fc71a
+FileChecksum: SHA512: 5fd4f970279481ff49e7a73f3712fb55792476e5b0e098e0aa0a26a2bcf846aade52642ea7addcd03d0d069254b88bec9a2f486f878b28cdba89141ba22b03af
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-12419f2a9953786f98d576b8a3357e2876836402
+FileName: test-infra/spire/agent/agent.conf
+SPDXID: SPDXRef-File-faa73e814886c95f86bf08d3c64a25e2a71ae1b6
+FileChecksum: SHA1: 75e8af75f967410c919e8f7c4a283c4c6d13c7fc
+FileChecksum: SHA256: 5448fc954216aa91792eef86a00c3f0504f4cf4d75fe88222a537efc0961d522
+FileChecksum: SHA512: eee2e96f12938852242d6f5a455445eb491afe7fe44d364eb775bf425b63cd19a132e8c0deab9e498054ac8eb84df12a3f142461627de58c4c305286f9c4654a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-faa73e814886c95f86bf08d3c64a25e2a71ae1b6
+FileName: test-infra/spire/agent/agent_ssh_key
+SPDXID: SPDXRef-File-e675e6dfdb8d313139e1043f16753b4170b434c1
+FileChecksum: SHA1: c3139ddabe2f8ab9756c42b80d171b8edd543a5d
+FileChecksum: SHA256: 6435b72501f178e8f5f57884c3cd2f722d0622cdbebbfc26f42ae83c7ed8173c
+FileChecksum: SHA512: 1cbe0fa7d97543d5a2ac459b02401983a75c09e3b2da378c09df0b9dff913259bb343de709f23735dd18aaab26a85c532a5c7dd9f3cec5cd1ee8d0c6f65cbb4d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-e675e6dfdb8d313139e1043f16753b4170b434c1
+FileName: test-infra/spire/agent/agent_ssh_key-cert.pub
+SPDXID: SPDXRef-File-c57bc003dc7b5e6d27ea32b95c07ff4ee663634c
+FileChecksum: SHA1: 99f4e6079c1425625f4a7d6ae8f1574fad2e206c
+FileChecksum: SHA256: 1789429158896c09dc7ab2a7ca23e8c65c18d57d82e9e6f69ec3597543c5b9a4
+FileChecksum: SHA512: 22fb521354dca670ee79dbad63c12d209612889341e564e2e7d82244b03aafce53c92236a8fe5e53fad7f9de5678b2d413f78f9a5a75e9d3ebc63c4393becfd8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-c57bc003dc7b5e6d27ea32b95c07ff4ee663634c
+FileName: test-infra/spire/server/server.conf
+SPDXID: SPDXRef-File-3d994c0d450b9f3e5f5a714444ecc0c6be5f272b
+FileChecksum: SHA1: 39d8ab328d76294731bab81ae127d2a9d57c15b1
+FileChecksum: SHA256: f2523148936dd5a4733506f23ca77b809eec354df5c4bbf25074d060ff69bc87
+FileChecksum: SHA512: ee1478f2b61d0fd74b496ae9b65abedfcbeb3dda9fda4640320fa166103fd11ed623c0b6448d6bfa8af7365a4ee48236d64b68e53714973d84c6639aa8bf605d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-3d994c0d450b9f3e5f5a714444ecc0c6be5f272b
+FileName: test-infra/spire/server/ssh_cert_authority.pub
+SPDXID: SPDXRef-File-89c000569b78c835d44573e321184bdc27d0338e
+FileChecksum: SHA1: 99964dec435cfecf8480615657af67ab8c9520a3
+FileChecksum: SHA256: 711e3ae189539ef5fbff53835cd6dbb797b3ca6ae4ef003e7259b259739dea16
+FileChecksum: SHA512: 3c15895c24738dadcf4cfecfb2ac03aef8fd6f31025da62edb547bcff0d51589605137772e44b3a5bd12cc64c130d8f75ee312f82d94cf25b21102a9302b7691
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: NONE
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-89c000569b78c835d44573e321184bdc27d0338e
+FileName: in-toto-golang.spdx
+SPDXID: SPDXRef-File-90cf5b38216d6b3b29cea865abf4919fd5f35771
+FileChecksum: SHA1: 895456ee15c44e50c929eb10e9bad6b8e8bc28c9
+FileChecksum: SHA256: 4afcffba340eed429d7d20c8cc0c65f4cdfd8f50d180d8cb2ffb062d6adef598
+FileChecksum: SHA512: 60bea71e491c2a698a74e7d4f17e78e4ea54968d70998d4a0532a99150a78df92981674e7008ad7f13012c36f43304d4faac932adab4a4d53944fa640c925322
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+Relationship: SPDXRef-Package-in-toto-golang CONTAINS SPDXRef-File-90cf5b38216d6b3b29cea865abf4919fd5f35771
+##### Package: github.com/spf13/cobra@v1.1.1
+
+PackageName: github.com/spf13/cobra@v1.1.1
+SPDXID: SPDXRef-Package-github.com-spf13-cobrav1.1.1
+PackageDownloadLocation: https://github.com/spf13/cobra
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageVersion: v1.1.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>                                Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-spf13-cobrav1.1.1
+##### Package: golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22
+
+PackageName: golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22
+SPDXID: SPDXRef-Package-golang.org-x-sysv0.0.0-20210616094352-59db8d763f22
+PackageDownloadLocation: https://go.googlesource.com/sys
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v0.0.0-20210616094352-59db8d763f22
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-golang.org-x-sysv0.0.0-20210616094352-59db8d763f22
+##### Package: github.com/spf13/pflag@v1.0.5
+
+PackageName: github.com/spf13/pflag@v1.0.5
+SPDXID: SPDXRef-Package-github.com-spf13-pflagv1.0.5
+PackageDownloadLocation: https://github.com/spf13/pflag
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v1.0.5
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright (c) 2012 Alex Ogier. All rights reserved.
+Copyright (c) 2012 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-spf13-pflagv1.0.5
+##### Package: google.golang.org/protobuf@v1.25.0
+
+PackageName: google.golang.org/protobuf@v1.25.0
+SPDXID: SPDXRef-Package-google.golang.org-protobufv1.25.0
+PackageDownloadLocation: https://go.googlesource.com/protobuf
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v1.25.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright (c) 2018 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-google.golang.org-protobufv1.25.0
+##### Package: golang.org/x/net@v0.0.0-20190620200207-3b0461eec859
+
+PackageName: golang.org/x/net@v0.0.0-20190620200207-3b0461eec859
+SPDXID: SPDXRef-Package-golang.org-x-netv0.0.0-20190620200207-3b0461eec859
+PackageDownloadLocation: https://go.googlesource.com/net
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v0.0.0-20190620200207-3b0461eec859
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-golang.org-x-netv0.0.0-20190620200207-3b0461eec859
+##### Package: google.golang.org/grpc@v1.33.2
+
+PackageName: google.golang.org/grpc@v1.33.2
+SPDXID: SPDXRef-Package-google.golang.org-grpcv1.33.2
+PackageDownloadLocation: https://github.com/grpc/grpc-go
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageVersion: v1.33.2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-google.golang.org-grpcv1.33.2
+##### Package: github.com/in-toto/in-toto-golang
+
+PackageName: github.com/in-toto/in-toto-golang
+SPDXID: SPDXRef-Package-github.com-in-toto-in-toto-golang
+PackageDownloadLocation: https://github.com/in-toto/in-toto-golang
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright 2018 New York University
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+{"mode":"full","isActive":false}
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-in-toto-in-toto-golang
+##### Package: golang.org/x/crypto@v0.0.0-20190605123033-f99c8df09eb5
+
+PackageName: golang.org/x/crypto@v0.0.0-20190605123033-f99c8df09eb5
+SPDXID: SPDXRef-Package-golang.org-x-cryptov0.0.0-20190605123033-f99c8df09eb5
+PackageDownloadLocation: https://go.googlesource.com/crypto
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v0.0.0-20190605123033-f99c8df09eb5
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-golang.org-x-cryptov0.0.0-20190605123033-f99c8df09eb5
+##### Package: gopkg.in/square/go-jose.v2@v2.4.1
+
+PackageName: gopkg.in/square/go-jose.v2@v2.4.1
+SPDXID: SPDXRef-Package-gopkg.in-square-go-jose.v2v2.4.1
+PackageDownloadLocation: https://gopkg.in/square/go-jose.v2
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageVersion: v2.4.1
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-gopkg.in-square-go-jose.v2v2.4.1
+##### Package: github.com/zeebo/errs@v1.2.2
+
+PackageName: github.com/zeebo/errs@v1.2.2
+SPDXID: SPDXRef-Package-github.com-zeebo-errsv1.2.2
+PackageDownloadLocation: https://github.com/zeebo/errs
+FilesAnalyzed: false
+PackageLicenseConcluded: MIT
+PackageVersion: v1.2.2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>MIT License
+
+Copyright (c) 2017 The Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-zeebo-errsv1.2.2
+##### Package: github.com/golang/protobuf@v1.4.2
+
+PackageName: github.com/golang/protobuf@v1.4.2
+SPDXID: SPDXRef-Package-github.com-golang-protobufv1.4.2
+PackageDownloadLocation: https://github.com/golang/protobuf
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v1.4.2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright 2010 The Go Authors.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+    * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-golang-protobufv1.4.2
+##### Package: google.golang.org/genproto@v0.0.0-20200806141610-86f49bd18e98
+
+PackageName: google.golang.org/genproto@v0.0.0-20200806141610-86f49bd18e98
+SPDXID: SPDXRef-Package-google.golang.org-genprotov0.0.0-20200806141610-86f49bd18e98
+PackageDownloadLocation: https://github.com/googleapis/go-genproto
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageVersion: v0.0.0-20200806141610-86f49bd18e98
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-google.golang.org-genprotov0.0.0-20200806141610-86f49bd18e98
+##### Package: golang.org/x/text@v0.3.2
+
+PackageName: golang.org/x/text@v0.3.2
+SPDXID: SPDXRef-Package-golang.org-x-textv0.3.2
+PackageDownloadLocation: https://go.googlesource.com/text
+FilesAnalyzed: false
+PackageLicenseConcluded: BSD-3-Clause
+PackageVersion: v0.3.2
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Copyright (c) 2009 The Go Authors. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-golang.org-x-textv0.3.2
+##### Package: github.com/shibumi/go-pathspec@v1.2.0
+
+PackageName: github.com/shibumi/go-pathspec@v1.2.0
+SPDXID: SPDXRef-Package-github.com-shibumi-go-pathspecv1.2.0
+PackageDownloadLocation: https://github.com/shibumi/go-pathspec
+FilesAnalyzed: false
+PackageLicenseConcluded: Apache-2.0
+PackageVersion: v1.2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: <text>Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "{}"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright {yyyy} {name of copyright owner}
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+</text>
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-shibumi-go-pathspecv1.2.0
+##### Package: github.com/spiffe/go-spiffe/v2@v2.0.0-beta.5
+
+PackageName: github.com/spiffe/go-spiffe/v2@v2.0.0-beta.5
+SPDXID: SPDXRef-Package-github.com-spiffe-go-spiffe-v2v2.0.0-beta.5
+PackageDownloadLocation: https://github.com/spiffe/go-spiffe
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: v2.0.0-beta.5
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-in-toto-golang DEPENDS_ON SPDXRef-Package-github.com-spiffe-go-spiffe-v2v2.0.0-beta.5
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-in-toto-golang
+
